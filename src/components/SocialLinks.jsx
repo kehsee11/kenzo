@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-concat */
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
