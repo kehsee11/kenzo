@@ -1,10 +1,10 @@
 import React from "react"
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg"
-import navbar from "../assets/portfolio/navbar.jpg"
-import reactParallax from "../assets/portfolio/reactParallax.jpg"
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg"
-import reactWeather from "../assets/portfolio/reactWeather.jpg"
+import myPortfolio from "../assets/portfolio/3d-portfolio.png";
+import chatApp from "../assets/portfolio/chatApp.png"
+import movieLand from "../assets/portfolio/movieLand.png"
+import randomQuote from "../assets/portfolio/randomQuote.png"
+import twitterClone from "../assets/portfolio/twitter-clone.png"
+import youtubeApi from "../assets/portfolio/youtube-api.png"
 import { FaGithub } from "react-icons/fa";
 import { AiFillEye } from "react-icons/ai";
 import { BrowserRouter, Link } from "react-router-dom";
@@ -13,22 +13,34 @@ const Portfolio = () => {
      const portfolio = [
           {
                id: 1,
-               src: arrayDestruct,
+               src: myPortfolio,
+               link: "https://github.com/Hemazyn/3D-Portfolio-Website-Threejs",
+               view: "https://github.com/Hemazyn/3D-Portfolio-Website-Threejs"
           }, {
                id: 2,
-               src: installNode
+               src: chatApp,
+               link: "https://github.com/Hemazyn/react-chat-app",
+               view: "https://devemma-chat-app.netlify.app"
           }, {
                id: 3,
-               src: navbar
+               src: movieLand,
+               link: "https://github.com/Hemazyn/movieland",
+               view: "https://devemma-movieland.netlify.app"
           }, {
                id: 4,
-               src: reactParallax
+               src: randomQuote,
+               link: "https://github.com/Hemazyn/random-quotes",
+               view: "https://devemma-random-quotes.netlify.app"
           }, {
                id: 5,
-               src: reactSmooth
+               src: twitterClone,
+               link: "https://github.com/Hemazyn/javaScript-twitter-profile-ui-clone",
+               view: "https://devemma-twitter-ui.netlify.app"
           }, {
                id: 6,
-               src: reactWeather
+               src: youtubeApi,
+               link: "https://github.com/Hemazyn/Youtube-search-api",
+               view: "https://github.com/Hemazyn/3D-Portfolio-Website-Threejs"
           },
      ]
      return (
@@ -40,15 +52,15 @@ const Portfolio = () => {
                               <p className="py-6">Check out some of my work right here</p>
                          </div>
                          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-                              {portfolio.map(({ id, src }) => (
+                              {portfolio.map(({ id, src, link, view }) => (
                                    <div key={id} className="shadow-md shadow-gray-600 rounded-lg relative z-5">
                                         <img src={src} alt="" className="rounded-md duration-200 hover:scale-105" />
                                         <div className="flex items-center absolute top-0 rounded-md h-6 mt-1 ml-2 px-2 py-5 gap-1 border bg-zinc-500">
                                              <button>
-                                                  <Link to="https://github.com/hemazyn" target="_blank"><FaGithub size={20} /></Link>
+                                                  <Link to={link} target="_blank"><FaGithub size={20} /></Link>
                                              </button>
                                              <button>
-                                                  <Link to="https://github.com/hemazyn" target="_blank"><AiFillEye size={25} /></Link>
+                                                  <Link to={view} target="_blank"><AiFillEye size={25} /></Link>
                                              </button>
                                         </div>
                                    </div>

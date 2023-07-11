@@ -1,12 +1,14 @@
 import React from "react";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
+import bootstrap from "../assets/bootstrap.png";
+import sass from "../assets/sass.png"
 import javascript from "../assets/javascript.png";
+import git from '../assets/git.png'
+import github from "../assets/github.svg";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
-import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import dart from "../assets/dart.png";
 
 const Experience = () => {
      const techs = [
@@ -22,33 +24,43 @@ const Experience = () => {
                style: "shadow-blue-500",
           }, {
                id: 3,
+               src: bootstrap,
+               title: "Bootstrap",
+               style: "shadow-purple-500",
+          }, {
+               id: 4,
+               src: sass,
+               title: "Sass",
+               style: "shadow-pink-500",
+          }, {
+               id: 5,
                src: javascript,
                title: "JavaScript",
                style: "shadow-yellow-500",
           }, {
-               id: 4,
+               id: 6,
+               src: git,
+               title: "Git",
+               style: "shadow-red-500",
+          }, {
+               id: 7,
                src: reactImage,
                title: "REACT",
                style: "shadow-blue-600",
           }, {
-               id: 1,
-               src: nextjs,
-               title: "NEXTJS",
-               style: "shadow-white",
-          }, {
-               id: 1,
-               src: graphql,
-               title: "GRAPHQL",
-               style: "shadow-pink-400",
-          }, {
-               id: 1,
+               id: 8,
                src: github,
                title: "GITHUB",
                style: "shadow-gray-400",
           }, {
-               id: 1,
+               id: 9,
                src: tailwind,
                title: "TAILWIND",
+               style: "shadow-sky-400",
+          }, {
+               id: 10,
+               src: dart,
+               title: "Dart",
                style: "shadow-sky-400",
           }
      ]
