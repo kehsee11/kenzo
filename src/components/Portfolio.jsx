@@ -1,5 +1,5 @@
 import React from "react"
-import myPortfolio from "../assets/portfolio/3d-portfolio.png";
+import fitnessApp from "../assets/portfolio/fitness-app.png";
 import chatApp from "../assets/portfolio/chatApp.png"
 import movieLand from "../assets/portfolio/movieLand.png"
 import randomQuote from "../assets/portfolio/randomQuote.png"
@@ -13,9 +13,9 @@ const Portfolio = () => {
      const portfolio = [
           {
                id: 1,
-               src: myPortfolio,
-               link: "https://github.com/Hemazyn/3D-Portfolio-Website-Threejs",
-               view: "https://github.com/Hemazyn/3D-Portfolio-Website-Threejs"
+               src: fitnessApp,
+               link: "https://github.com/Hemazyn/fitness-app",
+               view: "https://devemma-exercise.netlify.app/"
           }, {
                id: 2,
                src: chatApp,
