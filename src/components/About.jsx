@@ -9,7 +9,7 @@ const About = () => {
                     </div>
                     <p className="text-base lg:text-xl mt-5 lg:mt-20">
                          Having serious passion for creating intuitive, dynamic user experiences, UI effects, 3D designs, animations and.
-                         Interested in the entire frontend spectrum and working on ambitious projects with positive people.
+                         Interested in the entire frontend (React) and working on ambitious projects with positive people.
                          I create successful responsive websites that are fast, easy to use, and built with best practices.
                     </p>
                     <br />
