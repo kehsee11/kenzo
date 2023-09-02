@@ -38,7 +38,7 @@ const SocialLinks = () => {
                          Resume <BsFillPersonLinesFill size={30} />
                     </>
                ),
-               href: "https://rxresu.me/hemazyn/myresume",
+               href: "https://www.canva.com/design/DAFtH_674QE/49Mb1irokq_X-pZ8x1m7NA/view?website#2",
                style: 'rounded-br-md',
                download: true,
           },

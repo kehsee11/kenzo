@@ -1,10 +1,10 @@
 import React from "react"
 import fitnessApp from "../assets/portfolio/fitness-app.png";
-import chatApp from "../assets/portfolio/chatApp.png"
+import restaurant from "../assets/portfolio/restaurant.png"
 import movieLand from "../assets/portfolio/movieLand.png"
 import randomQuote from "../assets/portfolio/randomQuote.png"
 import twitterClone from "../assets/portfolio/twitter-clone.png"
-import youtubeApi from "../assets/portfolio/youtube-api.png"
+import weather from "../assets/portfolio/weather.png"
 import { FaGithub } from "react-icons/fa";
 import { AiFillEye } from "react-icons/ai";
 import { BrowserRouter, Link } from "react-router-dom";
@@ -15,12 +15,12 @@ const Portfolio = () => {
                id: 1,
                src: fitnessApp,
                link: "https://github.com/Hemazyn/fitness-app",
-               view: "https://devemma-exercise.netlify.app/"
+               view: "https://devemma-exercise.netlify.app"
           }, {
                id: 2,
-               src: chatApp,
-               link: "https://github.com/Hemazyn/react-chat-app",
-               view: "https://devemma-chat-app.netlify.app"
+               src: restaurant,
+               link: "https://github.com/Hemazyn/restaurant",
+               view: "https://devemma-restaurant.netlify.app"
           }, {
                id: 3,
                src: movieLand,
@@ -38,9 +38,9 @@ const Portfolio = () => {
                view: "https://devemma-twitter-ui.netlify.app"
           }, {
                id: 6,
-               src: youtubeApi,
-               link: "https://github.com/Hemazyn/Youtube-search-api",
-               view: "https://github.com/Hemazyn/3D-Portfolio-Website-Threejs"
+               src: weather,
+               link: "https://github.com/Hemazyn/weather-app",
+               view: "https://devemma-weather.netlify.app"
           },
      ]
      return (
