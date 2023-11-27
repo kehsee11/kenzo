@@ -1,69 +1,7 @@
 import React from "react";
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import bootstrap from "../assets/bootstrap.png";
-import sass from "../assets/sass.png"
-import javascript from "../assets/javascript.png";
-import git from '../assets/git.png'
-import github from "../assets/github.svg";
-import reactImage from "../assets/react.png";
-import tailwind from "../assets/tailwind.png";
-import dart from "../assets/dart.png";
+import { techs } from "../constants";
 
 const Experience = () => {
-     const techs = [
-          {
-               id: 1,
-               src: html,
-               title: "HTML",
-               style: "shadow-orange-500",
-          }, {
-               id: 2,
-               src: css,
-               title: "CSS",
-               style: "shadow-blue-500",
-          }, {
-               id: 3,
-               src: bootstrap,
-               title: "Bootstrap",
-               style: "shadow-purple-500",
-          }, {
-               id: 4,
-               src: sass,
-               title: "Sass",
-               style: "shadow-pink-500",
-          }, {
-               id: 5,
-               src: javascript,
-               title: "JavaScript",
-               style: "shadow-yellow-500",
-          }, {
-               id: 6,
-               src: git,
-               title: "Git",
-               style: "shadow-red-500",
-          }, {
-               id: 7,
-               src: reactImage,
-               title: "REACT",
-               style: "shadow-blue-600",
-          }, {
-               id: 8,
-               src: github,
-               title: "GITHUB",
-               style: "shadow-gray-400",
-          }, {
-               id: 9,
-               src: tailwind,
-               title: "TAILWIND",
-               style: "shadow-sky-400",
-          }, {
-               id: 10,
-               src: dart,
-               title: "Dart",
-               style: "shadow-sky-400",
-          }
-     ]
      return (
           <div name="experience" className="bg-gradient-to-b from-gray-800 to-black w-full">
                <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white">
