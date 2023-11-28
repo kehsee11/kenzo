@@ -3,11 +3,11 @@ import React from "react";
 const About = () => {
      return (
           <div name="about" className="w-full bg-gradient-to-b from-gray-800 to-black text-white pt-[10vh] lg:pt-0">
-               <div className="p-4 mx-auto flex flex-col justify-center w-[80%] h-full pt-20">
+               <div className="p-4 mx-auto flex flex-col justify-center w-[90%] h-full pt-20">
                     <div className="pb-4">
                          <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
                     </div>
-                    <div className="mt-10">
+                    <div className="mt-8">
                          <p className="text-2xl text-gray-400"><span className="font-bold">A Front-End Maestro Orchestrating User Experiences with React and Flutter </span>
                               As a seasoned Frontend Developer with a focus on React, I bring a wealth of experience in crafting robust, user-centric web applications.
                               My proficiency lies in architecting intuitive user interfaces and implementing complex functionalities, driven by a strong foundation in React development. <br />

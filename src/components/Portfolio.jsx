@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Portfolio = () => {
      return (
           <div name="portfolio" className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:hscreen z-10 pt-5 pb-14">
-               <div className="p-4 mx-auto flex flex-col justify-center w-[80%] h-full">
+               <div className="p-4 mx-auto flex flex-col justify-center w-[90%] h-full">
                     <div className="py-4">
                          <p className="text-4xl font-bold inline border-b-4 border-gray-500">Portfolio</p>
                          <p className="py-6">Check out some of my work right here</p>
