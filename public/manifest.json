@@ -1,11 +1,11 @@
 {
 	"short_name": "Portfolio App",
-	"name": "React Personal Portfolio Website",
+	"name": "React Personal Portfolio App",
 	"icons": [
 		{
-			"src": "daily.png",
+			"src": "./hemazyn.png",
 			"sizes": "64x64 32x32 24x24 16x16",
-			"type": "image/png"
+			"type": "image/x-icon"
 		},
 		{
 			"src": "daily.png",
