@@ -3,17 +3,17 @@
 	"name": "React Personal Portfolio App",
 	"icons": [
 		{
-			"src": "./hemazyn.png",
+			"src": "./hemazyn.jpg",
 			"sizes": "64x64 32x32 24x24 16x16",
 			"type": "image/x-icon"
 		},
 		{
-			"src": "hemazyn.png",
+			"src": "./hemazyn.jpg",
 			"type": "image/png",
 			"sizes": "192x192"
 		},
 		{
-			"src": "hemazyn.png",
+			"src": "./hemazyn.jpg",
 			"type": "image/png",
 			"sizes": "512x512"
 		}
