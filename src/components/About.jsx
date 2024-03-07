@@ -8,14 +8,17 @@ const About = () => {
                          <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
                     </div>
                     <div className="mt-8">
-                         <p className="text-xs lg:text-2xl text-gray-500"><span className="font-bold">A Front-End Maestro Orchestrating User Experiences with React and Flutter </span>
-                              As a seasoned Frontend Developer with a focus on React, I bring a wealth of experience in crafting robust, user-centric web applications.
-                              My proficiency lies in architecting intuitive user interfaces and implementing complex functionalities, driven by a strong foundation in React development. <br />
+                         <p className="text-xs lg:text-2xl text-gray-500"><span className="font-bold">  </span>
+                             <br />
                          </p>
-                         <p className="text-xs lg:text-2xl text-gray-500 mt-4">While I have established myself as a proficient React developer, I am currently expanding my horizons into Flutter development, aiming to translate my frontend expertise into the realm of mobile applications.
-                              I'm in the early stages of my journey with Flutter, eagerly embracing its potential to create dynamic and seamless experiences across various platforms.</p>
-                         <p className="text-xs lg:text-2xl text-gray-500 mt-4">With a passion for learning and an eye for detail, I am committed to bridging the gap between React's excellence in web development and emerging as a competent Flutter developer.
-                              I aspire to contribute innovative solutions that harmoniously integrate React's robustness with Flutter's versatility, ultimately delivering engaging and impactful applications to users worldwide.</p>
+                         <p className="text-xs lg:text-2xl text-gray-500 mt-4">Hi there! I am Kenny! A Full stack developer with expertise in Javascript. I've been coding for over 5 years now. As a Full Stack developer I've worked on different (frontend and backend web and app) applications.
+                                   A professional developer with deep knowledge for creating intuitive, dynamic user experiences, UI effects,
+                                   animations and interested in the entire Frontend spectrum.
+                                  I am a goal driven,enthusiastic and solution driven developer with vast experience.
+                         I am very fluid and very open to learn new stuff and adapt to new situations.
+                         Whenever I encounter a new problem, I usually conduct  extensive research on it in order to comprehen it and discover cutting-edge and innovative
+                         approaches for dealing with similar prolems in the future. Get in touch with me.</p>
+           
                     </div>
                </div>
           </div >

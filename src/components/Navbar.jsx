@@ -8,7 +8,7 @@ const NavBar = () => {
      return (
           <div className="flex justify-between items-center w-full h-20 px-4 lg:px-12 text-white bg-black fixed z-50">
                <div>
-                    <a href="https://devemma.netlify.app" rel="noreferrer" target="_blank" className="text-5xl font-signature ml-2 cursor-pointer">devEmma</a>
+                    <a href="https://devemma.netlify.app" rel="noreferrer" target="_blank" className="text-4xl font- ml-2 cursor-pointer">Kenzo's Hub</a>
                </div>
                <ul className="hidden md:flex">
                     {links.map(({ id, link }) => (
