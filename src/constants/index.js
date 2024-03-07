@@ -1,7 +1,7 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { drone, fitnessApp, movieLand, randomQuote, restaurant, weather, bootstrap, css, dart, git, github, html, javascript, reactImage, sass, tailwind } from "../assets";
+import { drone, fitnessApp, kenzoMovie, randomQuote, restaurant, weather, bootstrap, css, dart, git, github, html, javascript, reactImage, sass, tailwind } from "../assets";
 
 
 const links = [
@@ -92,7 +92,7 @@ const portfolio = [
           view: "https://devemma-restaurant.netlify.app"
      }, {
           id: 3,
-          src: movieLand,
+          src: kenzoMovie,
           link: "https://github.com/Hemazyn/movieland",
           view: "https://devemma-movieland.netlify.app"
      }, {
