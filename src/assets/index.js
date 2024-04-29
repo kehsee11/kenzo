@@ -1,9 +1,10 @@
 import { FaGithub } from "react-icons/fa";
 import { AiFillEye } from "react-icons/ai";
 
+import sneakers from "./portfolio/sneakers.png";
 import threeD from "./portfolio/3d-portfolio.png";
 import drone from "./portfolio/drone.png";
-import fitnessApp from "./portfolio/fitness-app.png";
+import booking from "./portfolio/booking.png";
 import randomQuote from "./portfolio/randomQuote.png";
 import restaurant from "./portfolio/restaurant.png";
 import twitterClone from "./portfolio/twitter-clone.png";
@@ -26,4 +27,4 @@ import tailwind from "../assets/tailwind.png";
 
 
 
-export { threeD, drone, fitnessApp,linkedin, blog, randomQuote, kenzoMovie, restaurant, twitterClone, weather, bootstrap, css, dart, devEmma, git, github, hemazyn, html, javascript, reactImage, sass, tailwind, FaGithub, AiFillEye };
+export { threeD, drone, booking,linkedin, blog, randomQuote, kenzoMovie, restaurant, twitterClone, weather, bootstrap, css, dart, sneakers, devEmma, git, github, hemazyn, html, javascript, reactImage, sass, tailwind, FaGithub, AiFillEye };

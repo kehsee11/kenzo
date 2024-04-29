@@ -1,7 +1,7 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { drone, fitnessApp, linkedin, blog, randomQuote, kenzoMovie, restaurant, weather, bootstrap, css, dart, git, github, html, javascript, reactImage, sass, tailwind } from "../assets";
+import { drone, fitnessApp, linkedin, blog, sneakers, kenzoMovie, booking, weather, bootstrap, css, dart, git, github, html, javascript, reactImage, sass, tailwind } from "../assets";
 
 
 const links = [
@@ -72,48 +72,44 @@ const techs = [
           src: tailwind,
           title: "TAILWIND",
           style: "shadow-sky-400",
-     }, {
-          id: 10,
-          src: dart,
-          title: "Dart",
-          style: "shadow-sky-400",
-     }
+     }, 
 ]
 const portfolio = [
      {
           id: 1,
+          src: booking,
+          link: "https://github.com/kehsee11/kenzo-homes.com",
+          view: ""
+     },
+     {
+     
+     
+          id: 2,
           src: blog,
           link: "https://github.com/kehsee11/ectasy-blog",
           view: ""
-     }, {
-          id: 2,
+     },
+     {
+          id: 3,
+          src: sneakers,
+          link: "https://github.com/kehsee11/Sneakers.com.git",
+          view: ""
+       },
+      {
+          id: 4,
           src: linkedin,
           link: "https://github.com/kehsee11/linkedin-clone",
-          view: "https://devemma-restaurant.netlify.app"
-     }, { 
-     id: 3,
+          view: ""
+     },
+      { 
+     id: 5,
      src: kenzoMovie,
      link: "https://github.com/kehsee11/kenzo-movie",
      view: "https://kenzo-movie.vercel.app/"
     
-}, 
-         
-     , {
-          id: 4,
-          src: randomQuote,
-          link: "https://github.com/Hemazyn/random-quotes",
-          view: "https://devemma-random-quotes.netlify.app"
-     }, {
-          id: 5,
-          src: drone,
-          link: "https://github.com/Hemazyn/3d-drone",
-          view: "https://devemma-drone.netlify.app"
-     }, {
-          id: 6,
-          src: weather,
-          link: "https://github.com/Hemazyn/weather-app",
-          view: "https://devemma-weather.netlify.app"
-       },
+}
+     ,
+     
 ]
 const linksIcons = [
      {
@@ -122,10 +118,11 @@ const linksIcons = [
                <>
                     LinkedIn <FaLinkedin size={30} />
                </>
-          ),
+          ), 
           href: "https://www.linkedin.com/in/kenny-abdul-14475221a",
           style: 'rounded-tr-md'
-     }, {
+     },
+      {
           id: 2,
           child: (
                <>
@@ -133,7 +130,8 @@ const linksIcons = [
                </>
           ),
           href: "https://github.com/kehsee11",
-     }, {
+     },
+      {
           id: 3,
           child: (
                <>
@@ -148,8 +146,7 @@ const linksIcons = [
                     Resume <BsFillPersonLinesFill size={30} />
                </>
           ),
-          href: "https://www.canva.com/design/DAFtH_674QE/49Mb1irokq_X-pZ8x1m7NA/view?website#2",
-          style: 'rounded-br-md',
+          href: "",
           download: true,
      },
 ]
